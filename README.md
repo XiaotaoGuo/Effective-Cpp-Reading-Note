@@ -9,4 +9,5 @@
 |02|[尽量以 const，enum，inline 替换 #define](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/blob/master/1.AccustomingYourselfToCpp/02.PreferConstsEnumsInlinesToDefine.md)|[code02](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/tree/master/PracticeCode/02.PreferConstsEnumsInlineToDefine)|
 |03|[尽可能使用 const](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/blob/master/1.AccustomingYourselfToCpp/03.UseConstWheneverPossible.md)|[code03](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/tree/master/PracticeCode/03.UseConstWheneverPossible)|
 |04|[确定对象被使用前已被初始化](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/blob/master/1.AccustomingYourselfToCpp/04.MakeSureThatObjectsAreInitilizedBeforeTheyAreUsed.md)|[code04](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/tree/master/PracticeCode/04.MakeSureThatObjectsAreInitilizedBeforeTheyAreUsed)|
-||**构造/析构/赋值运算**||
+||[**构造/析构/赋值运算**](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/tree/master/2.ConstructorsDestructorsAndAssignmentOperation)||
+|05|[了解 C++ 静默编写和调用的函数](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/blob/master/2.ConstructorsDestructorsAndAssignmentOperation/05.KnowWhatFunctionsCppSilentlyWritesAndCalls.md)|[code05](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/tree/master/PracticeCode/05.KnowWhatFunctionsCppSilentlyWritesAndCalls)|
