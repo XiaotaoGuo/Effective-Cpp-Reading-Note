@@ -12,5 +12,6 @@
 ||[**构造/析构/赋值运算**](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/tree/master/2.ConstructorsDestructorsAndAssignmentOperation)||
 |05|[了解 C++ 静默编写和调用的函数](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/blob/master/2.ConstructorsDestructorsAndAssignmentOperation/05.KnowWhatFunctionsCppSilentlyWritesAndCalls.md)|[code05](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/tree/master/PracticeCode/05.KnowWhatFunctionsCppSilentlyWritesAndCalls)|
 |06|[明确拒绝你不想使用的编译器自动生成的函数](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/blob/master/2.ConstructorsDestructorsAndAssignmentOperation/06.Explicitly-disallow-the-use-of-compiler-generated-functions-you-do-not-want.md)|[code06](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/tree/master/PracticeCode/06.Explicitly-disallow-the-use-of-compiler-generated-functions-you-do-not-want)|
+|07|[为多态基类声明 virtual 析构函数](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/blob/master/2.ConstructorsDestructorsAndAssignmentOperation/07.Declare-destructors-virtual-in-polymorphic-base-classes.md)|[code07](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/tree/master/PracticeCode/07.Declare-destructors-virtual-in-polymorphic-base-classes)|
 
 To be continue...
