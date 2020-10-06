@@ -19,4 +19,7 @@
 |09|[不要在构造和析构过程中调用 virtual 函数](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/blob/master/2.ConstructorsDestructorsAndAssignmentOperation/09.NeverCallVirtualFunctionsDuringConstructionOrDestruction.md)|[code09](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/tree/master/PracticeCode/09.NeverCallVirtualFunctionsDuringConstructionOrDestruction)|
 |10|[令 `operator=` 返回一个 `*this` 的引用](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/blob/master/2.ConstructorsDestructorsAndAssignmentOperation/10.HaveAssignmentOperatorsReturnAReferenceToThis.md)|[code10](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/tree/master/PracticeCode/10.HaveAssignmentOperatorsReturnAReferenceToThis)|
 |11|[在 `operator=` 中处理自我赋值](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/blob/master/2.ConstructorsDestructorsAndAssignmentOperation/11.HandleAssignmentToSelfInOperatorEqual.md)|[code11](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/tree/master/PracticeCode/11.HandleAssignmentToSelfInOperatorEqual)|
+|12|[复制对象时确保复制其一个成员](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/blob/master/2.ConstructorsDestructorsAndAssignmentOperation/12.CopyAllPartsOfAnObject.md)|[code12](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/tree/master/PracticeCode/12.CopyAllPartsOfAnObject)|
+||[**资源管理**]()||
+
 To be continue...
