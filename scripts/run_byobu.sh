@@ -1,6 +1,8 @@
 #!/bin/sh
 
-cd ..
+REPO_PATH=~/Documents/projects/Effective-Cpp-Reading-Note
+
+cd $REPO_PATH
 
 byobu-tmux -2 new-session -d -s "effective-cpp-note" -n 'effective-cpp-note'
 
