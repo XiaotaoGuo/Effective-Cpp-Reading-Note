@@ -20,6 +20,7 @@
 |10|[令 `operator=` 返回一个 `*this` 的引用](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/blob/master/2.ConstructorsDestructorsAndAssignmentOperation/10.HaveAssignmentOperatorsReturnAReferenceToThis.md)|[code10](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/tree/master/PracticeCode/10.HaveAssignmentOperatorsReturnAReferenceToThis)|
 |11|[在 `operator=` 中处理自我赋值](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/blob/master/2.ConstructorsDestructorsAndAssignmentOperation/11.HandleAssignmentToSelfInOperatorEqual.md)|[code11](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/tree/master/PracticeCode/11.HandleAssignmentToSelfInOperatorEqual)|
 |12|[复制对象时确保复制其一个成员](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/blob/master/2.ConstructorsDestructorsAndAssignmentOperation/12.CopyAllPartsOfAnObject.md)|[code12](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/tree/master/PracticeCode/12.CopyAllPartsOfAnObject)|
-||[**资源管理**]()||
+||[**资源管理**](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/tree/master/3.ResourceManagement)||
+|13|[使用对象管理资源](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/blob/master/3.ResourceManagement/13.UseObjectsToManageResources.md)|[code13](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/tree/master/PracticeCode/13.UseObjectsToManageResources)|
 
 To be continue...
