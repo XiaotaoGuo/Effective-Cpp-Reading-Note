@@ -4,17 +4,9 @@
 #include <string>
 #include <thread>
 
-class Uncopyable {
+class Lock {
 public:
-    Uncopyable() {}
-
-private:
-    Uncopyable(const Uncopyable& rhs);
-};
-
-class Lock : public Uncopyable {
-public:
-    explicit Lock(std::mutex* pm) : Uncopyable(), p_mutex(pm) {
+    explicit Lock(std::mutex* pm) : p_mutex(pm) {
         std::cout << "mutex locked!" << std::endl;
         p_mutex->lock();
     }
