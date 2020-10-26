@@ -1,6 +1,6 @@
 #include "FileSystem.hpp"
 
-FileSystem::FileSystem() { 
+FileSystem::FileSystem() {
     std::cout << "FileSystem constructed!" << std::endl;
 }
 

@@ -1,19 +1,19 @@
-#include "GamePlayer.hpp"
 #include <iostream>
 
-#define CALL_WITH_MAX(a,b) f((a) > (b) ? (a) : (b))
+#include "GamePlayer.hpp"
+
+#define CALL_WITH_MAX(a, b) f((a) > (b) ? (a) : (b))
 
 void f(int num);
 
-template<typename T>
-inline void callWithMax(const T& a, const T& b) {   // 由于我们不知道 T 是什么，所以采用 pass by reference to const
+template <typename T>
+inline void callWithMax(const T& a,
+                        const T& b) {  // 由于我们不知道 T 是什么，所以采用 pass
+                                       // by reference to const
     f(a > b ? a : b);
 }
 
-
-
 int main() {
-
     // 使用 const、enum 代替 define 的例子
     GamePlayer game_player;
     game_player.printNumTurnsAddr();
@@ -24,7 +24,7 @@ int main() {
     std::cout << "a = " << a << std::endl;
     CALL_WITH_MAX(++a, b);  // a 比 b 大，累加两次
     std::cout << "a = " << a << std::endl;
-    CALL_WITH_MAX(++a, b + 10); // a 比 b 小，累加一次
+    CALL_WITH_MAX(++a, b + 10);  // a 比 b 小，累加一次
     std::cout << "a = " << a << std::endl;
 
     std::cout << "Using template inline function: " << std::endl;
@@ -38,6 +38,4 @@ int main() {
     return 0;
 }
 
-void f(int num) {
-    std::cout << "Excuted f()!" << std::endl;
-}
+void f(int num) { std::cout << "Excuted f()!" << std::endl; }

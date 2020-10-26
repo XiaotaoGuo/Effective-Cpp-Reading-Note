@@ -10,10 +10,10 @@ public:
     B() { std::cout << "B constructor!" << std::endl; }
 };
 
-class C{
+class C {
 public:
     C() : a(), b() {}
-    C(bool flag): b(), a() {}
+    C(bool flag) : b(), a() {}
 
 private:
     A a;
@@ -21,6 +21,6 @@ private:
 };
 
 int main() {
-    C c1; // first construct A, then construct B
-    C c2(true); // different intialization list, but same constructint order
+    C c1;        // first construct A, then construct B
+    C c2(true);  // different intialization list, but same constructint order
 }

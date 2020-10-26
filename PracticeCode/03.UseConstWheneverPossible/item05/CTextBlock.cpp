@@ -1,7 +1,8 @@
 #include <string.h>
-#include <string>
-#include <iostream>
+
 #include <cstring>
+#include <iostream>
+#include <string>
 
 // a bitwise constness version of CTextBlock
 class CTextBlock_v1 {
@@ -52,17 +53,16 @@ public:
 
 private:
     char* pText;
-    mutable std::size_t textLength;         // 最近一次计算的文本区块长度
-    mutable bool lengthIsValid;             // 目前长度是否有效
+    mutable std::size_t textLength;  // 最近一次计算的文本区块长度
+    mutable bool lengthIsValid;      // 目前长度是否有效
 };
 
-int main () {
-
+int main() {
     const CTextBlock_v1 block("Hello");
 
     std::cout << block[0] << std::endl;
 
-    block[0] = 'h';             // works! which it shouldn't
+    block[0] = 'h';  // works! which it shouldn't
 
     std::cout << block[0] << std::endl;
 

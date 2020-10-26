@@ -1,7 +1,7 @@
-#include <vector>
-#include <string>
-#include <list>
 #include <iostream>
+#include <list>
+#include <string>
+#include <vector>
 
 class PhoneNumber {
     //...
@@ -12,9 +12,7 @@ private:
 // 用于测试的类
 class Person {
 public:
-    Person() {
-        std::cout << "Person constructed! " << std::endl;
-    }
+    Person() { std::cout << "Person constructed! " << std::endl; }
 
     Person(const std::string& name) {
         std::cout << "Person constructed with a name! " << std::endl;
@@ -27,7 +25,8 @@ private:
 
 class AddressBookEntry {
 public:
-    AddressBookEntry(const std::string& name, const std::string& address, const std::list<PhoneNumber>& phones);
+    AddressBookEntry(const std::string& name, const std::string& address,
+                     const std::list<PhoneNumber>& phones);
 
 private:
     std::string theName;
@@ -37,8 +36,9 @@ private:
     Person thePerson;
 };
 
-AddressBookEntry::AddressBookEntry(const std::string& name, const std::string& address, const std::list<PhoneNumber>& phones) {
-
+AddressBookEntry::AddressBookEntry(const std::string& name,
+                                   const std::string& address,
+                                   const std::list<PhoneNumber>& phones) {
     // 下面都是赋值操作，而非初始化！
     std::cout << "Entering constructor" << std::endl;
     theName = name;
@@ -50,7 +50,6 @@ AddressBookEntry::AddressBookEntry(const std::string& name, const std::string& a
 }
 
 int main() {
-
     std::string name = "abc";
     std::string address = "def";
     std::list<PhoneNumber> phones;
@@ -59,7 +58,7 @@ int main() {
      * output:
      * Person constructor ---> person default constructor is called
      * Entering constructor ---> entering AddressBookEntry constructor
-     * Person constructed with a name! ---> second constructor for Person called 
+     * Person constructed with a name! ---> second constructor for Person called
      * Exit constructor
      */
     AddressBookEntry abe(name, address, phones);

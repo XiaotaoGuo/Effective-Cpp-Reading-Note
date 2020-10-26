@@ -6,15 +6,11 @@ public:
     virtual ~AWOV() = 0;
 };
 
-AWOV::~AWOV() {
-    std::cout << "Destory AWOV" << std::endl;
-}
+AWOV::~AWOV() { std::cout << "Destory AWOV" << std::endl; }
 
-class Derived: public AWOV {
+class Derived : public AWOV {
 public:
-    ~Derived() {
-        std::cout << "Destory Derived" << std::endl;
-    }
+    ~Derived() { std::cout << "Destory Derived" << std::endl; }
 };
 
 int main() {

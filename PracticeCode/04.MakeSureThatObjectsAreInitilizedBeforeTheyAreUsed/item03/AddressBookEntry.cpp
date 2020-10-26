@@ -1,7 +1,7 @@
-#include <vector>
-#include <string>
-#include <list>
 #include <iostream>
+#include <list>
+#include <string>
+#include <vector>
 
 class PhoneNumber {
     //...
@@ -12,9 +12,7 @@ private:
 // 用于测试的类
 class Person {
 public:
-    Person() {
-        std::cout << "Person constructed! " << std::endl;
-    }
+    Person() { std::cout << "Person constructed! " << std::endl; }
 
     Person(std::string name) {
         std::cout << "Person constructed with a name! " << std::endl;
@@ -27,9 +25,15 @@ private:
 
 class AddressBookEntry {
 public:
-    AddressBookEntry(const std::string& name, const std::string& address, const std::list<PhoneNumber>& phones);
+    AddressBookEntry(const std::string& name, const std::string& address,
+                     const std::list<PhoneNumber>& phones);
 
-    AddressBookEntry(): theName(), theAddress(), thePhones(), numTimesConsulted(0), thePerson() {
+    AddressBookEntry()
+        : theName(),
+          theAddress(),
+          thePhones(),
+          numTimesConsulted(0),
+          thePerson() {
         std::cout << "Default constructor called " << std::endl;
     }
 
@@ -41,23 +45,27 @@ private:
     Person thePerson;
 };
 
-AddressBookEntry::AddressBookEntry(const std::string& name, const std::string& address, const std::list<PhoneNumber>& phones): theName(name),
-theAddress(address), thePhones(phones), numTimesConsulted(0), thePerson(name) {
-
+AddressBookEntry::AddressBookEntry(const std::string& name,
+                                   const std::string& address,
+                                   const std::list<PhoneNumber>& phones)
+    : theName(name),
+      theAddress(address),
+      thePhones(phones),
+      numTimesConsulted(0),
+      thePerson(name) {
     // 下面都是赋值操作，而非初始化！
     std::cout << "Entering constructor" << std::endl;
     std::cout << "Exiting constructor" << std::endl;
 }
 
 int main() {
-
     std::string name = "abc";
     std::string address = "def";
     std::list<PhoneNumber> phones;
 
     /**
      * output:
-     * Person constructed with a name! 
+     * Person constructed with a name!
      * Entering constructor
      * Exiting constructor
      */
@@ -65,8 +73,8 @@ int main() {
 
     /**
      * output:
-     * Person constructed! 
-     * Default constructor called 
+     * Person constructed!
+     * Default constructor called
      */
     AddressBookEntry abe_2;
     return 0;

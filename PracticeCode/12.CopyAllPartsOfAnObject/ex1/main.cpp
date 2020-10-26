@@ -3,10 +3,11 @@
 
 class Customer {
 public:
-    Customer(const std::string& name_, const std::string& date_): name(name_), date(date_) {}
+    Customer(const std::string& name_, const std::string& date_)
+        : name(name_), date(date_) {}
     Customer(const Customer& rhs);
     Customer& operator=(const Customer& rhs);
-    
+
     void print() {
         std::cout << "name: " << name << ", date: " << date << std::endl;
     }
@@ -16,7 +17,7 @@ private:
     std::string date;
 };
 
-Customer::Customer(const Customer& rhs): name(rhs.name) {
+Customer::Customer(const Customer& rhs) : name(rhs.name) {
     std::cout << "Customer copy constructor called." << std::endl;
 }
 
@@ -29,7 +30,7 @@ Customer& Customer::operator=(const Customer& rhs) {
 int main() {
     Customer c1("A", "2020-10-03");
     Customer c2("B", "2020-10-01");
-    c2 = c1; // no complete copied!
+    c2 = c1;  // no complete copied!
     c1.print();
     c2.print();
 

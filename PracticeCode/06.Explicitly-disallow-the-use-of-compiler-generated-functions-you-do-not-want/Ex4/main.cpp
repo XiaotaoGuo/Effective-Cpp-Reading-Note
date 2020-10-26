@@ -7,7 +7,6 @@ public:
     HomeForSale() {}
 
     void test() {
-
         HomeForSale h1;
         HomeForSale h2 = h1;
     }
@@ -18,9 +17,8 @@ private:
 };
 
 int main() {
-    
     HomeForSale h1;
-    h1.test(); // compiles & runs without error, which it shouldn't
+    h1.test();  // compiles & runs without error, which it shouldn't
 
     return 0;
 }

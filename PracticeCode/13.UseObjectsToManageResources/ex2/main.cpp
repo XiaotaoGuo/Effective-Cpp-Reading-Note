@@ -3,20 +3,13 @@
 
 class Investment {
 public:
-    Investment() {
-        std::cout << "Investment Constructed." << std::endl;
-    }
-    ~Investment() {
-        std::cout << "Investment Destructed." << std::endl;
-    }
+    Investment() { std::cout << "Investment Constructed." << std::endl; }
+    ~Investment() { std::cout << "Investment Destructed." << std::endl; }
 };
 
-Investment* createInvestment() {
-    return new Investment();
-}
+Investment* createInvestment() { return new Investment(); }
 
-int main () {
-
+int main() {
     {
         std::tr1::shared_ptr<Investment> pInv(createInvestment());
         {

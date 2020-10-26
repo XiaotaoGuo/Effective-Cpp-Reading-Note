@@ -1,9 +1,9 @@
-#include <vector>
 #include <iostream>
+#include <vector>
 
 class Widge {
 public:
-    Widge(int a): a_(a) {}
+    Widge(int a) : a_(a) {}
 
     ~Widge() {
         std::cout << "Destructor called" << std::endl;
@@ -22,21 +22,15 @@ private:
 };
 
 int main() {
-
-    try{
-
+    try {
         {
-            Widge w1(2);     // 修改不同初值观察不同行为
+            Widge w1(2);  // 修改不同初值观察不同行为
 
-            {
-                Widge w2(1);
-            }
+            { Widge w2(1); }
         }
-    }
-    catch(...) {
+    } catch (...) {
         std::cout << "Error catch." << std::endl;
     }
 
     return 0;
 }
-

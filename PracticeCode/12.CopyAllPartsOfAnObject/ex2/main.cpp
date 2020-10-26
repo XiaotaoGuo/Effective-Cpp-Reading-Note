@@ -4,7 +4,8 @@
 class Customer {
 public:
     Customer() {}
-    Customer(const std::string& name_, const std::string& date_): name(name_), date(date_) {}
+    Customer(const std::string& name_, const std::string& date_)
+        : name(name_), date(date_) {}
     Customer(const Customer& rhs);
     Customer& operator=(const Customer& rhs);
 
@@ -17,7 +18,7 @@ private:
     std::string date;
 };
 
-Customer::Customer(const Customer& rhs): name(rhs.name), date(rhs.date) {
+Customer::Customer(const Customer& rhs) : name(rhs.name), date(rhs.date) {
     std::cout << "Customer copy constructor called." << std::endl;
 }
 
@@ -28,23 +29,26 @@ Customer& Customer::operator=(const Customer& rhs) {
     return *this;
 }
 
-class PriorityCustomer: public Customer {
+class PriorityCustomer : public Customer {
 public:
-    PriorityCustomer(const std::string& name_, const std::string& date_, int priority_) : Customer(name_, date_), priority(priority_) {}
-    PriorityCustomer(const PriorityCustomer& rhs): priority(rhs.priority) {
+    PriorityCustomer(const std::string& name_, const std::string& date_,
+                     int priority_)
+        : Customer(name_, date_), priority(priority_) {}
+    PriorityCustomer(const PriorityCustomer& rhs) : priority(rhs.priority) {
         std::cout << "PriorityCustomer copy constructor called" << std::endl;
     }
 
     PriorityCustomer& operator=(const PriorityCustomer& rhs) {
-         std::cout << "PriorityCustomer copy constructor called" << std::endl;
-         priority = rhs.priority;
-         return *this;
+        std::cout << "PriorityCustomer copy constructor called" << std::endl;
+        priority = rhs.priority;
+        return *this;
     }
 
     void printProfile() {
         print();
         std::cout << "Priority: " << priority << std::endl;
     }
+
 private:
     int priority;
 };
@@ -52,7 +56,7 @@ private:
 int main() {
     PriorityCustomer c1("A", "2020-10-03", 1);
     PriorityCustomer c2("B", "2020-10-01", 2);
-    c2 = c1; // no complete copied!
+    c2 = c1;  // no complete copied!
     c1.printProfile();
     c2.printProfile();
 

@@ -1,5 +1,5 @@
-#include <string>
 #include <iostream>
+#include <string>
 
 class Transaction {
 public:
@@ -10,13 +10,15 @@ public:
 class BuyTransaction : public Transaction {
 public:
     BuyTransaction() : Transaction(createLogString()) {}
+
 private:
     static std::string createLogString();
 };
 
-class SellTransaction: public Transaction {
+class SellTransaction : public Transaction {
 public:
     SellTransaction() : Transaction(createLogString()) {}
+
 private:
     static std::string createLogString();
 };
@@ -34,9 +36,8 @@ std::string SellTransaction::createLogString() {
 }
 
 int main() {
-
     BuyTransaction b;
     SellTransaction s;
-    
+
     return 0;
 }

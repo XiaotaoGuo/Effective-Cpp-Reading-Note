@@ -1,11 +1,8 @@
-#include <string>
 #include <iostream>
+#include <string>
 
 class SpecialString : public std::string {
-
-    ~SpecialString() {
-        std::cout << "Destory SpecialString" << std::endl;
-    }
+    ~SpecialString() { std::cout << "Destory SpecialString" << std::endl; }
 };
 
 int main() {
