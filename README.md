@@ -23,5 +23,6 @@
 ||[**资源管理**](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/tree/master/3.ResourceManagement)||
 |13|[使用对象管理资源](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/blob/master/3.ResourceManagement/13.UseObjectsToManageResources.md)|[code13](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/tree/master/PracticeCode/13.UseObjectsToManageResources)|
 |14|[在资源管理类中小心 copy 行为](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/blob/master/3.ResourceManagement/14.ThinkCarefullyAboutBehaviorInResourceManagingClasses.md)|[code14](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/tree/master/PracticeCode/14.ThinkCarefullyAboutBehaviorInResourceManagingClasses)|
+|15|[在资源管理类中提供对原始资源的访问](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/blob/master/3.ResourceManagement/15.ProvideAccessToRawResourcesInResourceManagingClasses.md)|[code15](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/tree/master/PracticeCode/15.ProvideAccessToRawResourcesInResourceManagingClasses)|
 
 To be continue...
