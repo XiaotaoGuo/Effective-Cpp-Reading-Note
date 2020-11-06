@@ -27,6 +27,7 @@
 |16|[成对使用 `new` 和 `delete` 时要采取相同形式](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/blob/master/3.ResourceManagement/16.UseSameFormInCorrespondingUsesOfNewAndDelete.md)|[code16](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/tree/master/PracticeCode/16.UseSameFormInCorrespondingUsesOfNewAndDelete)|
 |17|[条款17. 以独立语句将 `new`ed 对象置入智能指针](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/blob/master/3.ResourceManagement/17.StoreNewedObjectsInSmartPointersInStandaloneStatements.md)|[code17](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/tree/master/PracticeCode/17.StoreNewedObjectsInSmartPointersInStandaloneStatements)|
 ||**设计与声明**||
+|18|[条款 18. 让接口容易被正确使用并且不易被错误使用](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/blob/master/4.DesignsAndDeclarations/18.MakeInterfacesEasyToUseCorrectlyAndHardToUseIncorrectly.md)||
 ||**实现**||
 ||**继承与面向对象设计**||
 ||**模板与泛型编程**||
