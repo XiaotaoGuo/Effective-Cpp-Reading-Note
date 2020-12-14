@@ -25,10 +25,10 @@
 |14|[在资源管理类中小心 copy 行为](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/blob/master/3.ResourceManagement/14.ThinkCarefullyAboutBehaviorInResourceManagingClasses.md)|[code14](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/tree/master/PracticeCode/14.ThinkCarefullyAboutBehaviorInResourceManagingClasses)|
 |15|[在资源管理类中提供对原始资源的访问](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/blob/master/3.ResourceManagement/15.ProvideAccessToRawResourcesInResourceManagingClasses.md)|[code15](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/tree/master/PracticeCode/15.ProvideAccessToRawResourcesInResourceManagingClasses)|
 |16|[成对使用 `new` 和 `delete` 时要采取相同形式](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/blob/master/3.ResourceManagement/16.UseSameFormInCorrespondingUsesOfNewAndDelete.md)|[code16](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/tree/master/PracticeCode/16.UseSameFormInCorrespondingUsesOfNewAndDelete)|
-|17|[条款17. 以独立语句将 `new`ed 对象置入智能指针](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/blob/master/3.ResourceManagement/17.StoreNewedObjectsInSmartPointersInStandaloneStatements.md)|[code17](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/tree/master/PracticeCode/17.StoreNewedObjectsInSmartPointersInStandaloneStatements)|
+|17|[以独立语句将 `new`ed 对象置入智能指针](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/blob/master/3.ResourceManagement/17.StoreNewedObjectsInSmartPointersInStandaloneStatements.md)|[code17](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/tree/master/PracticeCode/17.StoreNewedObjectsInSmartPointersInStandaloneStatements)|
 ||**设计与声明**||
-|18|[条款 18. 让接口容易被正确使用并且不易被错误使用](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/blob/master/4.DesignsAndDeclarations/18.MakeInterfacesEasyToUseCorrectlyAndHardToUseIncorrectly.md)||
-|19|[条款 10. 像设计 type 一样设计 class](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/blob/master/4.DesignsAndDeclarations/19.TreatClassDesignAsTypeDesign.md)||
+|18|[让接口容易被正确使用并且不易被错误使用](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/blob/master/4.DesignsAndDeclarations/18.MakeInterfacesEasyToUseCorrectlyAndHardToUseIncorrectly.md)||
+|19|[像设计 type 一样设计 class](https://github.com/XiaotaoGuo/Effective-Cpp-Reading-Note/blob/master/4.DesignsAndDeclarations/19.TreatClassDesignAsTypeDesign.md)||
 ||**实现**||
 ||**继承与面向对象设计**||
 ||**模板与泛型编程**||
